@@ -6,6 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
+
 def get_pokemon_info(pokemon_name):
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
